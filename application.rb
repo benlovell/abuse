@@ -71,3 +71,7 @@ get "/" do
   erb :index
 end
 
+get "/insult" do
+  "#{FIRST.sample} #{SECOND.sample} #{THIRD.sample}"
+end
+
