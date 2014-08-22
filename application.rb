@@ -23,7 +23,7 @@ FIRST = [
 ]
 
 SECOND = [
-  "DOUCH",
+  "DOUCHE",
   "ASS",
   "TURD",
   "RECTUM",
