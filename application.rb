@@ -75,3 +75,18 @@ get "/insult" do
   "#{FIRST.sample} #{SECOND.sample} #{THIRD.sample}"
 end
 
+__END__
+
+@@ index
+<html>
+  <head>
+    <style>
+    h1 { font-family: helvetica; font-size: 10em; }
+    body { background-color: yellow; }
+    </style>
+    <title>Insults</title>
+  </head>
+  <body>
+    <h1><%= @insult %></h1>
+  </body>
+</html>
